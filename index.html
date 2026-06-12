@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder | Glassmorphism</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1><i data-lucide="github"></i> Git<span>Find</span></h1>
+            <div class="search-box">
+                <input type="text" id="username-input" placeholder="Search GitHub username..." autocomplete="off">
+                <button id="search-btn"><i data-lucide="search"></i></button>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <div id="welcome-message" class="glass-card">
+                <h2>Welcome to GitFind</h2>
+                <p>Search for any GitHub profile to see stats, repositories, and contributions.</p>
+            </div>
+
+            <div id="profile-section" class="hidden">
+                <div class="profile-header glass-card">
+                    <div class="profile-info">
+                        <img id="avatar" src="" alt="Avatar">
+                        <div class="user-meta">
+                            <h2 id="name"></h2>
+                            <p id="username"></p>
+                            <p id="bio"></p>
+                            <div class="user-details">
+                                <span id="location-span"><i data-lucide="map-pin"></i> <span id="location"></span></span>
+                                <span id="blog-span"><i data-lucide="link"></i> <a id="blog" href="#" target="_blank"></a></span>
+                                <span id="twitter-span"><i data-lucide="twitter"></i> <a id="twitter" href="#" target="_blank"></a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <span class="stat-value" id="repos-count">0</span>
+                            <span class="stat-label">Repositories</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="followers-count">0</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="following-count">0</span>
+                            <span class="stat-label">Following</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contribution-section glass-card">
+                    <h3>Contribution Graph</h3>
+                    <div class="graph-container">
+                        <img id="contribution-graph" src="" alt="Contribution Graph">
+                    </div>
+                </div>
+
+                <div class="repos-section">
+                    <h3>Top Repositories</h3>
+                    <div id="repos-grid" class="repos-grid">
+                        <!-- Repos will be injected here -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="error-message" class="glass-card hidden">
+                <i data-lucide="alert-circle" class="error-icon"></i>
+                <h2>User Not Found</h2>
+                <p>We couldn't find a user with that username. Please try again.</p>
+            </div>
+
+            <div id="loader" class="hidden">
+                <div class="spinner"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
