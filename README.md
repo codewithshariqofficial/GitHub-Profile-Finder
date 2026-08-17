@@ -2,7 +2,7 @@
 
 # GitHub Profile Finder
 
-**Search & explore any GitHub user's profile instantly using the GitHub REST API. View stats, repos, followers & more. Built with HTML, CSS & JavaScript.**
+**Search and explore any GitHub user's profile instantly using the GitHub REST API. View stats, repos, followers and more. Built with HTML, CSS and JavaScript.**
 
 [![Live Demo](https://img.shields.io/badge/LIVE-DEMO-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://github-profile-finder.vercel.app)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -22,7 +22,7 @@
 
 ## About
 
-A **powerful GitHub Profile Finder** that lets you search any GitHub user and instantly view their complete profile â€" avatar, bio, location, repositories, followers, and more.
+A **powerful GitHub Profile Finder** that lets you search any GitHub user and instantly view their complete profile -- avatar, bio, location, repositories, followers, and more.
 
 Uses the **GitHub REST API** with `fetch()` and `async/await` for real-time data. No API key required!
 
@@ -46,7 +46,7 @@ Uses the **GitHub REST API** with `fetch()` and `async/await` for real-time data
 ## Tech Stack
 
 ```
-HTML5   -->  Search Input & Profile Layout
+HTML5   -->  Search Input and Profile Layout
 CSS3    -->  Card Design, Responsive Grid
 JS      -->  Fetch API, Async/Await, DOM Updates
 API     -->  GitHub REST API v3 (Public, No Auth)
@@ -83,10 +83,10 @@ start index.html
 
 ```
 GitHub-Profile-Finder/
-â"œâ"€â"€ index.html      # Search UI
-â"œâ"€â"€ script.js       # API calls & DOM logic
-â"œâ"€â"€ style.css       # Styling
-â""â"€â"€ README.md
+  index.html      # Search UI
+  script.js       # API calls and DOM logic
+  style.css       # Styling
+  README.md
 ```
 
 ---
