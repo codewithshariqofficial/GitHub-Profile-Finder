@@ -1,6 +1,6 @@
 <div align="center">
 
-# ðŸ” GitHub Profile Finder
+# GitHub Profile Finder
 
 **Search & explore any GitHub user's profile instantly using the GitHub REST API. View stats, repos, followers & more. Built with HTML, CSS & JavaScript.**
 
@@ -14,13 +14,13 @@
 
 ---
 
-## ðŸ“Œ Topics
+## Topics
 
-`html` `css` `javascript` `github-api` `rest-api` `profile-finder` `fetch-api` `dom-manipulation` `async-await` `responsive-design` `front-end` `web-development` `vanilla-js` `api-integration`
+`html` `css` `javascript` `github-api` `rest-api` `api-integration` `fetch-api` `responsive-design` `front-end` `vanilla-js`
 
 ---
 
-## ðŸ“– About
+## About
 
 A **powerful GitHub Profile Finder** that lets you search any GitHub user and instantly view their complete profile â€” avatar, bio, location, repositories, followers, and more.
 
@@ -28,33 +28,33 @@ Uses the **GitHub REST API** with `fetch()` and `async/await` for real-time data
 
 ---
 
-## âœ¨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| ðŸ”Ž Instant Search | Find any GitHub user by username |
-| ðŸ‘¤ Full Profile | Avatar, name, bio, location |
-| ðŸ“Š Stats | Repos, followers, following count |
-| ðŸ“¦ Repo List | Browse user's public repositories |
-| âš¡ Real-Time | Live data from GitHub API |
-| ðŸ›¡ï¸ Error Handling | Graceful invalid username handling |
-| ðŸ“± Responsive | Works on all devices |
-| ðŸš« No API Key | Free public API access |
+| Instant Search | Find any GitHub user by username |
+| Full Profile | Avatar, name, bio, location |
+| Stats | Repos, followers, following count |
+| Repo List | Browse user's public repositories |
+| Real-Time | Live data from GitHub API |
+| Error Handling | Graceful invalid username handling |
+| Responsive | Works on all devices |
+| No API Key | Free public API access |
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## Tech Stack
 
 ```
-HTML5   âžœ Search Input & Profile Layout
-CSS3    âžœ Card Design, Responsive Grid
-JS      âžœ Fetch API, Async/Await, DOM Updates
-API     âžœ GitHub REST API v3 (Public, No Auth)
+HTML5   -->  Search Input & Profile Layout
+CSS3    -->  Card Design, Responsive Grid
+JS      -->  Fetch API, Async/Await, DOM Updates
+API     -->  GitHub REST API v3 (Public, No Auth)
 ```
 
 ---
 
-## âš™ï¸ API Usage
+## API Usage
 
 ```javascript
 // Fetch user profile
@@ -69,7 +69,7 @@ const repos = await fetch(`https://api.github.com/users/${username}/repos`);
 
 ---
 
-## ðŸš€ Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/codewithshariqofficial/GitHub-Profile-Finder.git
@@ -79,7 +79,7 @@ start index.html
 
 ---
 
-## ðŸ“‚ Project Structure
+## Project Structure
 
 ```
 GitHub-Profile-Finder/
@@ -91,7 +91,7 @@ GitHub-Profile-Finder/
 
 ---
 
-## ðŸ‘¨â€ðŸ’» Author
+## Author
 
 **Code With Shariq Official**
 
@@ -99,5 +99,3 @@ GitHub-Profile-Finder/
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/codewithshariq1/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/codewithshariq1)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://muhammad-shariq-shahid.vercel.app/)
-
----
