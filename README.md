@@ -4,13 +4,19 @@
 
 **Search and explore any GitHub user's profile instantly using the GitHub REST API. View stats, repos, followers and more. Built with HTML, CSS and JavaScript.**
 
-[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://github-profile-finder.vercel.app)
+[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://git-hub-profile-finder-seven.vercel.app)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=for-the-badge&logo=github&logoColor=white)](https://docs.github.com/en/rest)
 
 </div>
+
+---
+
+## Live Demo
+
+**https://git-hub-profile-finder-seven.vercel.app**
 
 ---
 
@@ -83,10 +89,10 @@ start index.html
 
 ```
 GitHub-Profile-Finder/
-  index.html      # Search UI
-  script.js       # API calls and DOM logic
-  style.css       # Styling
-  README.md
+  |-- index.html
+  |-- script.js
+  |-- style.css
+  |-- README.md
 ```
 
 ---
