@@ -22,7 +22,7 @@
 
 ## About
 
-A **powerful GitHub Profile Finder** that lets you search any GitHub user and instantly view their complete profile â€” avatar, bio, location, repositories, followers, and more.
+A **powerful GitHub Profile Finder** that lets you search any GitHub user and instantly view their complete profile â€" avatar, bio, location, repositories, followers, and more.
 
 Uses the **GitHub REST API** with `fetch()` and `async/await` for real-time data. No API key required!
 
@@ -83,10 +83,10 @@ start index.html
 
 ```
 GitHub-Profile-Finder/
-â”œâ”€â”€ index.html      # Search UI
-â”œâ”€â”€ script.js       # API calls & DOM logic
-â”œâ”€â”€ style.css       # Styling
-â””â”€â”€ README.md
+â"œâ"€â"€ index.html      # Search UI
+â"œâ"€â"€ script.js       # API calls & DOM logic
+â"œâ"€â"€ style.css       # Styling
+â""â"€â"€ README.md
 ```
 
 ---
