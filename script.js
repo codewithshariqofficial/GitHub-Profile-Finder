@@ -152,3 +152,4 @@ searchInput.addEventListener('keypress', (e) => {
         }
     }
 });
+
